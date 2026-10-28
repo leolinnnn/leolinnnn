@@ -54,6 +54,14 @@ Bang Na authorship is retained. A separate public-data license for those researc
 materials is not asserted here. The original providers' terms and the authors'
 rights continue to apply.
 
+The Beijing project reproduces **Figures 9 and 7** from the manuscript dated
+**21 October 2026**, retaining the original Chinese figure labels and adding
+English captions. The Bang Na project reproduces **Figures 2 and 5** from the
+**22 October 2026 English v4 manuscript**. All four PNG files are unchanged
+copies, verified against the images embedded in their respective manuscripts.
+Their original legends, intervals and map credits are retained. README display
+widths are limited for readability; linked images retain their full resolution.
+
 The climbing-centre views, drawings and experimental-scene images come from the
 final presentation set dated **25 May 2025** (`0525_layout`, boards 1–4), checked
 against the four supplied PNG boards. The figures were extracted from the matching

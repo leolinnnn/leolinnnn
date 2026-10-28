@@ -9,6 +9,16 @@
 How does the spatial extent of satellite measurement change its relationship
 with street-view greenery on the same roads?
 
+## Spatial comparison
+
+<a href="../../assets/beijing/spatial-ranks-figure09.png"><img src="../../assets/beijing/spatial-ranks-figure09.png" alt="Three maps of Beijing's fixed paired roads: GVI percentile rank, 100 m NDVI percentile rank, and their signed rank difference" width="640"></a>
+
+**Manuscript Figure 9 — spatial ranks on 13,943 paired roads.** Panels a–c show
+GVI rank, 100 m NDVI rank and their difference, D = GVI rank − NDVI rank.
+Positive D means a higher relative GVI rank; negative D means a higher NDVI rank.
+Grey lines show unpaired framework roads. Road data: ©
+[OpenStreetMap contributors](https://www.openstreetmap.org/copyright).
+
 ## Research workflow
 
 - Curate street-view observations through content deduplication and road matching.
@@ -30,6 +40,14 @@ with street-view greenery on the same roads?
 At 100 m, 5,400 roads (38.73%) have discordant high/low classifications. Between
 30 and 100 m, 2,810 roads (20.15%) change category. “High” means at or above the
 corresponding fixed-sample median. Intervals use 2 km blocks and 4,999 resamples.
+
+<a href="../../assets/beijing/scale-association-figure07.png"><img src="../../assets/beijing/scale-association-figure07.png" alt="Pearson correlation decreases from 0.545 at 30 m to 0.451 at 50 m and 0.312 at 100 m, with spatial-block bootstrap confidence intervals" width="720"></a>
+
+**Manuscript Figure 7 — scale-dependent association.** The horizontal axis is
+road-buffer radius; the vertical axis is Pearson r between road GVI and NDVI.
+The same roads are compared at all three scales; error bars are 95% spatial-block
+bootstrap intervals. Both figures retain the original Chinese labels from the
+21 October 2026 manuscript. Open either image for the full-resolution figure.
 
 ## Code and reproducibility
 

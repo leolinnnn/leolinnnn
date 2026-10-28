@@ -9,6 +9,15 @@
 How do residential types and the interface between buildings and public streets
 relate to visible greenery in a peripheral transit-oriented development station area?
 
+## Study area
+
+<a href="../../assets/bangna/study-area-figure02.png"><img src="../../assets/bangna/study-area-figure02.png" alt="Map of Bang Na Station showing four residential types, 25 residential areas and 289 valid street-view sampling points within the study extent" width="640"></a>
+
+**Manuscript Figure 2 — residential types and sampling locations.** Colours
+distinguish the four residential types; dots mark valid GVI points. The dashed
+800 m circle defines the polygon-selection criterion, not a walking catchment.
+Original map credits are retained: © OpenStreetMap; Microsoft / Esri.
+
 ## Research workflow
 
 - Process **1,156 directional images at 289 points** across **25 residential areas**.
@@ -31,6 +40,15 @@ In M2-I, one SD higher interface openness is associated with **5.51 percentage
 points higher GVI** (HC3 95% CI 2.27–8.75; 25 areas). The controls are mean
 network distance to the BTS station, major-road share and mean POI Shannon
 diversity in 400 m buffers.
+
+<a href="../../assets/bangna/model-results-figure05.png"><img src="../../assets/bangna/model-results-figure05.png" alt="Coefficient plots comparing M2 with M2-I and showing the interface-openness association across alternative analytical specifications" width="720"></a>
+
+**Manuscript Figure 5 — model comparison and robustness.** Panel A compares
+coefficients before and after adding interface openness. Panel B shows its
+association across alternative specifications, with HC3 intervals for area
+models and CR1 intervals for the point-level model. Both figures are unchanged
+from the English v4 manuscript dated 22 October 2026. Open either image for
+the full-resolution figure.
 
 ## Code and reproducibility
 
