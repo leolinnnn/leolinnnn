@@ -54,8 +54,14 @@ Bang Na authorship is retained. A separate public-data license for those researc
 materials is not asserted here. The original providers' terms and the authors'
 rights continue to apply.
 
-The climbing-centre image and Blueprint figure come from the supplied graduation
-materials. The UE materials include Unreal starter content and third-party VR
+The climbing-centre views, drawings and experimental-scene images come from the
+final presentation set dated **25 May 2025** (`0525_layout`, boards 1–4), checked
+against the four supplied PNG boards. The figures were extracted from the matching
+PDF and proportionally resized or encoded for web display, without content
+retouching. The [visual record](../projects/vr-climbing/VISUALS.md) identifies each
+figure's source board. The Blueprint figure comes from the thesis.
+
+The UE materials include Unreal starter content and third-party VR
 plugins; those components are not claimed as original work.
 
 This repository contains no participant photographs, participant-level VR records,

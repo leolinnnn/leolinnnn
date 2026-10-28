@@ -16,6 +16,9 @@ The thesis describes a 30-grip limit, hand contact detection and haptic feedback
 Its original Blueprint figure includes object overlap logic, route/index checks,
 branching and counters.
 
+The [experimental-scene gallery](VISUALS.md#experimental-scenes) shows the four
+virtual environments and the reference-route display used to communicate the task.
+
 ## Original Blueprint evidence
 
 [![Blueprint graph for hand/hold overlap and error-counting logic, reproduced without alteration from the thesis](../../assets/grip-blueprint.png)](../../assets/grip-blueprint.png)

@@ -52,7 +52,7 @@ enclosure and route-following decisions?
   scene models, Unreal Engine 5.4 and a Pico headset.
 - **Independently implemented the climbing interaction and grip-error
   counting Blueprints**, including route-index comparison and trial completion.
-- Connected the experiment to the design of *Yan Shuang Que*, a climbing
+- Connected the experiment to the design of *Twin Cliff* (岩双阙), a climbing
   centre in Chongli, Zhangjiakou.
 
 **Unreal Engine Blueprints · VR interaction · Experimental design · Rhino**
