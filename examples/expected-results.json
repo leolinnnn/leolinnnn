@@ -1,0 +1,62 @@
+{
+  "beijing": {
+    "n_fixed_pair_roads": 13943,
+    "r_30m": 0.5445584032669493,
+    "r_50m": 0.4508014492630281,
+    "r_100m": 0.3124452568833206,
+    "delta_r_30m_minus_100m": 0.23211314638362868,
+    "discordant_100m_n": 5400,
+    "discordant_100m_fraction": 0.38729111382055514,
+    "transition_30m_to_100m_n": 2810,
+    "transition_30m_to_100m_fraction": 0.20153482033995554,
+    "threshold_rule": "H iff value >= the corresponding fixed-sample median; ties are H",
+    "transition_matrix": {
+      "HH": {
+        "HH": 3961,
+        "HL": 1085,
+        "LH": 0,
+        "LL": 0
+      },
+      "HL": {
+        "HH": 311,
+        "HL": 1615,
+        "LH": 0,
+        "LL": 0
+      },
+      "LH": {
+        "HH": 0,
+        "HL": 0,
+        "LH": 1606,
+        "LL": 320
+      },
+      "LL": {
+        "HH": 0,
+        "HL": 0,
+        "LH": 1094,
+        "LL": 3951
+      }
+    }
+  },
+  "bangna": {
+    "n_gvi_points": 289,
+    "n_images": 1156,
+    "kruskal_h": 8.994175824175827,
+    "kruskal_p": 0.02936842243373385,
+    "io_gvi_spearman": 0.6476923076923076,
+    "spearman_p": 0.0004646439576615584,
+    "M2": {
+      "n_areas": 25,
+      "adjusted_r_squared": 0.4876908183540155
+    },
+    "M2-I": {
+      "n_areas": 25,
+      "adjusted_r_squared": 0.7097320609226131,
+      "io_pp_per_sd": 5.51452023784492,
+      "io_hc3_ci95": [
+        2.274964781126721,
+        8.754075694563118
+      ],
+      "io_p": 0.002250398247402558
+    }
+  }
+}
