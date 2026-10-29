@@ -1,12 +1,24 @@
 # Zihao Lin | 林子豪
 
-**Computational urban research · Spatial analysis · Human–environment interaction**
+**M.Arch. student at Tsinghua University · Computational urban research**
 
-I study how built environments shape what people see and do. My work combines
-Python-based spatial analysis, street-view computer vision and VR experiments
-with architectural research and design.
+I am an architecture-trained researcher studying visible greenery and spatial
+experience in high-density built environments. My work combines Python,
+street-view computer vision, GIS and spatial statistics with affective assessment
+and immersive VR experiments.
 
 [简体中文](README.zh-CN.md)
+
+## Academic background
+
+| Degree | Institution | Period |
+| --- | --- | --- |
+| Master of Architecture | Tsinghua University | 2025–2027 (expected) |
+| Bachelor of Architecture | Tsinghua University | 2021–2025 |
+
+Graduate GPA: **4.00/4.00**, ranked **1/101**. Recipient of the **National
+Scholarship for Graduate Students (2026)**. Academic details follow my October
+2026 CV.
 
 ## Selected research
 
@@ -73,8 +85,8 @@ enclosure and route-following decisions?
 
 ## Research interests
 
-Urban greenery and environmental perception; residential morphology and street
-interfaces; immersive methods for studying human–environment interaction.
+Vegetation configuration and indoor–outdoor visual connections; spatial
+perception and emotional experience in high-density built environments.
 
 The Beijing and Bang Na projects are research manuscripts. The VR project is an
 undergraduate thesis in Architecture at Tsinghua University (2025).

@@ -12,8 +12,12 @@
   Architecture at Tsinghua University, 2025, including independent development
   of the climbing interaction and grip-error counting Blueprints.
 
-No journal acceptance, publication DOI or current institutional appointment is
-asserted by this repository.
+The profile's education, graduate GPA/rank and 2026 graduate scholarship follow
+Zihao Lin's CV dated 24 October 2026. The M.Arch. is in progress, with graduation
+expected in June 2027; the B.Arch. was completed in June 2025. Research interests
+and experience in affective assessment are also summarised from that CV.
+
+No journal acceptance or publication DOI is asserted by this repository.
 
 ## What can be reproduced here
 
