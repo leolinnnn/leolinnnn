@@ -6,6 +6,11 @@ The examples reproduce selected statistical results from existing tables. They d
 not recreate image acquisition, semantic segmentation, satellite processing, manual
 coding or spatial bootstrap confidence intervals.
 
+For the original research routines and more extensive runnable analyses, see
+[Beijing research code](../projects/beijing/code/README.md) and
+[Bang Na research code](../projects/bangna/code/README.md). These add spatial
+bootstrap/Moran analysis and the full set of archived interface model checks.
+
 ## Beijing — Python standard library
 
 ```sh

@@ -52,18 +52,21 @@ the full-resolution figure.
 
 ## Code and reproducibility
 
-[verify_bangna.py](../../examples/verify_bangna.py) makes the design matrix,
-sample-SD standardisation, OLS and HC3 covariance calculation explicit.
-It uses a [nine-column extract of the 25-area table](../../examples/data/bangna-areas.csv).
+[Research code and run instructions](code/README.md) include the original
+interface-analysis and regression routines, numerical segmentation and spatial
+metrics, plus the historical image-inference and GIS scripts. The portable
+runner starts with the included point and area tables.
 
 ```sh
-cd examples
-python -m pip install -r requirements.txt
-python verify_bangna.py
+python -m pip install -r projects/bangna/code/requirements.txt
+python projects/bangna/code/run_analysis.py --output outputs/bangna
 ```
 
-The portable example was checked against the stored main-model results. It does
-not repeat raw image inference or manual interface coding.
+Run from the repository root. Both main models, seven sensitivity models and
+the area-clustered point model have been checked against the archived results.
+The runner uses final manual interface scores. Historical image inference and
+GIS workflows require external inputs; see [provenance and scope](code/PROVENANCE.md).
+The compact [HC3 verification example](../../examples/verify_bangna.py) is retained.
 
 ## Interpretation
 

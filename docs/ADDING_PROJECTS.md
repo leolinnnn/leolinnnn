@@ -37,7 +37,8 @@ One sentence stating the research question or technical problem.
    填入问题、贡献、方法、成果、运行方式和研究状态。
 3. 在英文主页 `Selected research` 的注释标记之间插入一个上述项目块；同步更新中文主页。
    项目顺序由研究相关性决定，无须改变其他项目。
-4. 代码可放在新项目的 `src/`，轻量示例数据放在 `data/`，图片放在 `assets/`。
+4. 代码建议沿用北京与 Bang Na 的 `code/` 结构：`README.md`、`src/`、`data/`、
+   `requirements.txt`、`run_analysis.py`；按需加入 `tests/` 和来源记录。图片放在 `assets/`。
    若代码已经维护在独立仓库，直接链接该仓库。当前共享的 `examples/` 目录仍可继续使用。
 5. 在 [研究与复现说明](RESEARCH_NOTES.md) 中补充作者、成果状态和复现范围。
    只有新增项目实际使用了新方法时，才扩展主页的工具表。
@@ -52,8 +53,12 @@ projects/
   vr-climbing/README.md
   project-slug/              Future project; create when ready
     README.md
-    src/                    Optional implementation
-    data/                   Optional shareable example data
+    code/                   Optional code package
+      README.md             Methods, input schema and run instructions
+      src/                  Research implementation
+      data/                 Shareable numerical inputs
+      requirements.txt      Runtime dependencies
+      run_analysis.py       Portable entry point
     assets/                 Optional figures
 templates/project/README.md  Reusable detail-page template
 docs/                       Research notes and this guide

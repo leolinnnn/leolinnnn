@@ -26,7 +26,7 @@ satellite greenness?
 
 **Python · GIS · Remote sensing · Spatial statistics**
 
-[Research summary](projects/beijing/README.md) · [Verification script](examples/verify_beijing.py) · [Run the analysis](examples/README.md)
+[Research summary](projects/beijing/README.md) · [Research code & run instructions](projects/beijing/code/README.md) · [Quick check](examples/verify_beijing.py)
 
 ### Residential types, street interfaces and greenery in Bang Na
 
@@ -41,7 +41,7 @@ public streets in a peripheral Bangkok station area?
 
 **Computer vision · Urban morphology · Statistical modelling**
 
-[Research summary](projects/bangna/README.md) · [Model implementation](examples/verify_bangna.py) · [Run the analysis](examples/README.md)
+[Research summary](projects/bangna/README.md) · [Research code & run instructions](projects/bangna/code/README.md) · [Quick check](examples/verify_bangna.py)
 
 ### Architectural enclosure and VR climbing decisions
 
@@ -79,7 +79,7 @@ interfaces; immersive methods for studying human–environment interaction.
 The Beijing and Bang Na projects are research manuscripts. The VR project is an
 undergraduate thesis in Architecture at Tsinghua University (2025).
 See [research and reproducibility notes](docs/RESEARCH_NOTES.md) for definitions,
-authorship and the scope of the included examples.
+authorship and the scope of the included code and examples.
 
 [Repository maintenance guide](docs/ADDING_PROJECTS.md)
 

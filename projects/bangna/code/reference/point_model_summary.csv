@@ -1,0 +1,2 @@
+model_id,n_points,clusters,parameters,r2,adj_r2,rmse,se_type,interpretation
+P1_cluster,267,25,8,0.4577682758678343,0.44311336440480287,11.868456037670848,area-cluster robust CR1,Point-level auxiliary association; observations are not treated as independent within areas.

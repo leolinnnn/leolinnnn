@@ -51,17 +51,21 @@ bootstrap intervals. Both figures retain the original Chinese labels from the
 
 ## Code and reproducibility
 
-[verify_beijing.py](../../examples/verify_beijing.py) uses only Python's standard
-library and the [included paired values](../../examples/data/beijing-pairs.csv).
-It recomputes the three correlations, category counts and transition matrix.
+[Research code and run instructions](code/README.md) include original routines
+for content deduplication, road aggregation, physical NDVI, pixel-area weighting,
+spatial block bootstrap and Moran's I. The portable entry point recomputes the
+spatial analysis from 13,943 paired roads and checks the archived results.
 
 ```sh
-cd examples
-python verify_beijing.py
+python -m pip install -r projects/beijing/code/requirements.txt
+python projects/beijing/code/run_analysis.py --output outputs/beijing
 ```
 
-This check starts from numerical tables. It does not repeat image inference,
-satellite processing or spatial bootstrap resampling.
+Run from the repository root. The three grid sizes, 4,999 bootstrap resamples
+and 999-permutation Moran diagnostic have been checked against the research
+archive. Upstream image and GIS processing requires external inputs; see
+[provenance and scope](code/PROVENANCE.md). A smaller, standard-library
+[correlation check](../../examples/verify_beijing.py) is also retained.
 
 ## Measurement scope
 

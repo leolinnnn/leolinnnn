@@ -21,7 +21,7 @@
 
 **Python · GIS · 遥感 · 空间统计**
 
-[研究说明](projects/beijing/README.md) · [Python 复算代码](examples/verify_beijing.py)
+[研究说明](projects/beijing/README.md) · [研究代码与运行说明](projects/beijing/code/README.md) · [快速核验](examples/verify_beijing.py)
 
 ### Bang Na 住宅类型、街道界面与绿视率
 
@@ -33,7 +33,7 @@
 
 **计算机视觉 · 城市形态 · 统计建模**
 
-[研究说明](projects/bangna/README.md) · [模型代码](examples/verify_bangna.py)
+[研究说明](projects/bangna/README.md) · [研究代码与运行说明](projects/bangna/code/README.md) · [快速核验](examples/verify_bangna.py)
 
 ### 建筑空间围合与 VR 攀岩决策
 

@@ -1,0 +1,344 @@
+[
+  {
+    "file": "src/regression.py",
+    "source": "run_bangna_gvi_regression_analysis.py",
+    "source_file_sha256": "13c7486620dafc8364bfeba2cf9b24a5fe50676c0eca666722c79f6ac347958c",
+    "functions": [
+      {
+        "name": "ols_fit",
+        "source_lines": [
+          265,
+          317
+        ],
+        "source_sha256": "79d2014b0373c161774c670edaea7ffb1de3be784788ac4e6f003fece8b0bed0",
+        "unchanged": true
+      },
+      {
+        "name": "p_from_t",
+        "source_lines": [
+          320,
+          323
+        ],
+        "source_sha256": "2d01072fe7444ff0945f5015a1dd50f3cb1e3652460044672d7f5a184365bf04",
+        "unchanged": true
+      },
+      {
+        "name": "format_p",
+        "source_lines": [
+          326,
+          331
+        ],
+        "source_sha256": "3d97ae0b9b41abf185b6f15d1ad566dabd0be7cfd3887d5dccc44d7db977c81c",
+        "unchanged": true
+      },
+      {
+        "name": "significance",
+        "source_lines": [
+          334,
+          343
+        ],
+        "source_sha256": "97d18f5e139776077c860f12949a1b520a6eb1b63135384547c6d61d0d613886",
+        "unchanged": true
+      },
+      {
+        "name": "coefficient_table",
+        "source_lines": [
+          346,
+          381
+        ],
+        "source_sha256": "ff4371ac2cf6adf7342020e5a50b2c8eb1c98ab561083a8a469b2472de6c8417",
+        "unchanged": false
+      },
+      {
+        "name": "model_summary",
+        "source_lines": [
+          384,
+          407
+        ],
+        "source_sha256": "3ca7a96c5d0e9069be0975efbc43af28f9d72ca64e924352524d940a96157c4a",
+        "unchanged": false
+      },
+      {
+        "name": "vif_table",
+        "source_lines": [
+          410,
+          433
+        ],
+        "source_sha256": "03aaf1ac762d2d1c940b92a0836b7b7c4b01325d71da01fb163fc6cefb56bb2f",
+        "unchanged": false
+      }
+    ],
+    "replacements": [
+      [
+        "spec: ModelSpec",
+        "spec: Any"
+      ]
+    ]
+  },
+  {
+    "file": "src/interface_analysis.py",
+    "source": "analyze_bangna_interface.py",
+    "source_file_sha256": "511145f78d860831dcb760cbdf9f96ec16d78eed1386f9be4b86d876f152c0d2",
+    "functions": [
+      {
+        "name": "area_aggregate",
+        "source_lines": [
+          248,
+          281
+        ],
+        "source_sha256": "35a95670142f61ae6f1a6c4cafa99a9b68c73a808e29362e03a92c4178fcb6cc",
+        "unchanged": true
+      },
+      {
+        "name": "type_descriptives",
+        "source_lines": [
+          284,
+          314
+        ],
+        "source_sha256": "bde47931b0fd76c755028d3d70aafa09d1777cd9e61d8649add6a485a2439838",
+        "unchanged": true
+      },
+      {
+        "name": "bh_adjust",
+        "source_lines": [
+          317,
+          326
+        ],
+        "source_sha256": "bc0b3ce76e90fbd0fcff575229dbf35f71b739887e9d8e2219476c5353448d21",
+        "unchanged": true
+      },
+      {
+        "name": "dunn_bh",
+        "source_lines": [
+          329,
+          347
+        ],
+        "source_sha256": "6f951e6e20c2b1da66764c0d762c03fd0b5abfa9b7b43ae7f853cbdd3b5bf482",
+        "unchanged": true
+      },
+      {
+        "name": "type_tests",
+        "source_lines": [
+          350,
+          380
+        ],
+        "source_sha256": "2823ea3e53e1de00d48bd0b70edb33c9d43aa1176148b4f906922f939b243beb",
+        "unchanged": true
+      },
+      {
+        "name": "correlations",
+        "source_lines": [
+          383,
+          406
+        ],
+        "source_sha256": "c2726ff7dcd3a42fe0dcdfb120278c7d08d8bc69d6670d1bd632c402794754ea",
+        "unchanged": true
+      },
+      {
+        "name": "zscore",
+        "source_lines": [
+          409,
+          413
+        ],
+        "source_sha256": "51d8746b52ad1a8a7134f5b4d63c00d3f3fb6a09185d9c3f99c0b1acb4ef83d5",
+        "unchanged": true
+      },
+      {
+        "name": "build_area_model",
+        "source_lines": [
+          416,
+          473
+        ],
+        "source_sha256": "c8df368bf6f7bc0bd312f13456e99b939ec28123ef011f07b0d90be32eec5c70",
+        "unchanged": true
+      },
+      {
+        "name": "fit_area_model",
+        "source_lines": [
+          476,
+          500
+        ],
+        "source_sha256": "c9d06d2af2c3880e414d9a2715c566cf622fea219e55b76c9a4cd9a3fe5e8840",
+        "unchanged": true
+      },
+      {
+        "name": "cluster_robust_point_model",
+        "source_lines": [
+          503,
+          559
+        ],
+        "source_sha256": "37c2d8f68566b360aae308944d5cee7832aea4402148e5d3ab2164e51537adff",
+        "unchanged": true
+      },
+      {
+        "name": "robustness_models",
+        "source_lines": [
+          562,
+          602
+        ],
+        "source_sha256": "74205a4d3dad54fe7e07c9b88936868acab2b23db3e7449068f56fe876b0943b",
+        "unchanged": true
+      }
+    ],
+    "replacements": []
+  },
+  {
+    "file": "src/network_metrics.py",
+    "source": "calculate_bangna_road_space_variables.py",
+    "source_file_sha256": "187ac6c46b81bf343a684e78f46d2550d029b5c1baf4203a7a1d654ff1b807e4",
+    "functions": [
+      {
+        "name": "make_projector",
+        "source_lines": [
+          73,
+          80
+        ],
+        "source_sha256": "1c8cc265a937ed124a54b8edf2db6737e4b42005c8e8a1fd12f31ed9eedd7752",
+        "unchanged": true
+      },
+      {
+        "name": "haversine_m",
+        "source_lines": [
+          83,
+          90
+        ],
+        "source_sha256": "ba2813222238d01e4418c6cf45f965fa9f296aeb0acc7581439894d2f8769159",
+        "unchanged": true
+      },
+      {
+        "name": "point_segment_distance_m",
+        "source_lines": [
+          93,
+          102
+        ],
+        "source_sha256": "158827ea33dd5ec6c518166921e3cc0f0b01ab622f8a94ba706c907761ecbaff",
+        "unchanged": true
+      },
+      {
+        "name": "segment_circle_inside_length",
+        "source_lines": [
+          105,
+          148
+        ],
+        "source_sha256": "9d2cd99407208dd636da0a78995c0da18bd7fce163a7a4a63aa4c55020ff96a1",
+        "unchanged": true
+      },
+      {
+        "name": "nearest_node",
+        "source_lines": [
+          313,
+          321
+        ],
+        "source_sha256": "14e77a9b4da5899dd2c3e9950ec60c3efd9386f9809b63523d8116e669915326",
+        "unchanged": true
+      },
+      {
+        "name": "nearest_reachable_node",
+        "source_lines": [
+          324,
+          338
+        ],
+        "source_sha256": "cc3782a5bf5f2cb14abc7d3c46bd2b482f7f46aadc8f6441703ac97ec39e9a3a",
+        "unchanged": true
+      },
+      {
+        "name": "buffer_road_context",
+        "source_lines": [
+          369,
+          409
+        ],
+        "source_sha256": "50dae962fe7bf82ab9ae714f26a4772972ea9154a5337cea6bef66cae5b6bb86",
+        "unchanged": true
+      }
+    ],
+    "replacements": []
+  },
+  {
+    "file": "src/poi_diversity.py",
+    "source": "calculate_bangna_functional_variables.py",
+    "source_file_sha256": "fc6daa458042d7453d8ed680460690fdffeefca8fae5d73492af2cb2af2a3ac6",
+    "functions": [
+      {
+        "name": "shannon_evenness",
+        "source_lines": [
+          142,
+          154
+        ],
+        "source_sha256": "b26c32be8ef1e2320a7b1f2a92e6748146d9e557cdcfc2bd0b2907b0e2d016bb",
+        "unchanged": true
+      },
+      {
+        "name": "nearest_distance",
+        "source_lines": [
+          157,
+          163
+        ],
+        "source_sha256": "ebe826334706a15bbeb752567f9c630c3efde3bcc3efdb9819bf19551b6f4e53",
+        "unchanged": true
+      },
+      {
+        "name": "buffer_function_context",
+        "source_lines": [
+          166,
+          199
+        ],
+        "source_sha256": "f9033c7adcd4d63f246b32fd618d8290ef500be9edf7f72a8038e0407b87eb94",
+        "unchanged": true
+      }
+    ],
+    "replacements": []
+  },
+  {
+    "file": "src/segmentation_metrics.py",
+    "source": "calculate_bangna_gvi_deeplab_cityscapes.py",
+    "source_file_sha256": "133cd6e00741a503694ab8a6bb269ffd7ef5f71c3d4d6b510b48bbe3cd6b4efa",
+    "functions": [
+      {
+        "name": "ratios_for_mask",
+        "source_lines": [
+          97,
+          122
+        ],
+        "source_sha256": "67a30a5e350bd72f3ab60ac9d7ade07c4ca81e54bed373254d61034b50bfd284",
+        "unchanged": true
+      },
+      {
+        "name": "metric_summary",
+        "source_lines": [
+          133,
+          140
+        ],
+        "source_sha256": "6cc5adc2421272cd4b5f0638f9c7177a56e9ef8684ae233b5c18f95c7bc218ec",
+        "unchanged": true
+      },
+      {
+        "name": "aggregate_results",
+        "source_lines": [
+          143,
+          208
+        ],
+        "source_sha256": "72595e1db9ff0dce8d7d97404daa6d6ccd569d3a8d4894276775851f116fe7d0",
+        "unchanged": true
+      }
+    ],
+    "replacements": []
+  },
+  {
+    "file": "legacy/calculate_bangna_gvi_deeplab_cityscapes.py",
+    "source": "calculate_bangna_gvi_deeplab_cityscapes.py",
+    "source_file_sha256": "133cd6e00741a503694ab8a6bb269ffd7ef5f71c3d4d6b510b48bbe3cd6b4efa",
+    "changes": "Unchanged content; UTF-8/LF serialization. Historical MXNet/GluonCV environment required."
+  },
+  {
+    "file": "legacy/calculate_bangna_road_space_variables.py",
+    "source": "calculate_bangna_road_space_variables.py",
+    "source_file_sha256": "187ac6c46b81bf343a684e78f46d2550d029b5c1baf4203a7a1d654ff1b807e4",
+    "changes": "Unchanged content; UTF-8/LF serialization. Full original input directory tree required."
+  },
+  {
+    "file": "legacy/calculate_bangna_functional_variables.py",
+    "source": "calculate_bangna_functional_variables.py",
+    "source_file_sha256": "fc6daa458042d7453d8ed680460690fdffeefca8fae5d73492af2cb2af2a3ac6",
+    "changes": "Unchanged content; UTF-8/LF serialization. Full original input directory tree required."
+  }
+]

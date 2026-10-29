@@ -1,0 +1,117 @@
+[
+  {
+    "file": "src/spatial_statistics.py",
+    "source": "analyze_fixed_osm_pairs.py",
+    "source_file_sha256": "ecf49872e6095135b7e65865767c32ae869e4146dede256c7b88b51ba2c81691",
+    "functions": [
+      {
+        "name": "type_labels",
+        "source_lines": [
+          51,
+          59
+        ],
+        "source_sha256": "da44a4fab98df31220afe0abfd7b89a0f136f4a04707dc7cc9ff7ce320a61b5d",
+        "unchanged": true
+      },
+      {
+        "name": "pearson_from_moments",
+        "source_lines": [
+          62,
+          67
+        ],
+        "source_sha256": "2bfac95bd864f6625e819be70e37f6a15f505dc1c895ad6fe418d1c69bca2f8c",
+        "unchanged": true
+      },
+      {
+        "name": "block_bootstrap",
+        "source_lines": [
+          70,
+          129
+        ],
+        "source_sha256": "be2cdae7b0f969a926e7e0140825bf17447fa633135874f2a9f1e2b88fc7014d",
+        "unchanged": true
+      },
+      {
+        "name": "moran_global",
+        "source_lines": [
+          132,
+          164
+        ],
+        "source_sha256": "564071a5265625811f451e8628f292e0a26e65d32577cadb28ab81e959186372",
+        "unchanged": true
+      }
+    ],
+    "replacements": []
+  },
+  {
+    "file": "src/road_aggregation.py",
+    "source": "build_existing_gvi_osm.py",
+    "source_file_sha256": "c02ae03108e23182bc8dec99885b2501e2eb070b8a61e6afccde608bb1580a02",
+    "functions": [
+      {
+        "name": "assert_unique",
+        "source_lines": [
+          50,
+          52
+        ],
+        "source_sha256": "e56f2151de68e82288a7d9402d4784b55f92c0e74c611d32f716db70bdd7bc04",
+        "unchanged": true
+      },
+      {
+        "name": "choose_unique_content",
+        "source_lines": [
+          159,
+          195
+        ],
+        "source_sha256": "ae2746957be0372a3f7203e6fcb1e5926e3e4812db86363e631c1981e7cd9335",
+        "unchanged": false
+      },
+      {
+        "name": "segment_aggregate",
+        "source_lines": [
+          198,
+          240
+        ],
+        "source_sha256": "a02b08245cecd9a1ae6510034f99b50c51d4aabc18bb8847d050ec29a206055b",
+        "unchanged": false
+      }
+    ],
+    "replacements": [
+      [
+        "    write_csv(selected[columns], f\"unique_content_to_osm_road_{int(threshold_m)}m.csv\")\n",
+        ""
+      ],
+      [
+        "    write_csv(pd.DataFrame(result.drop(columns=\"geometry\"))[export_columns], f\"osm_segment_gvi_vt_{threshold_m}m.csv\")\n",
+        ""
+      ],
+      [
+        "gpd.GeoDataFrame",
+        "pd.DataFrame"
+      ]
+    ]
+  },
+  {
+    "file": "src/ndvi_aggregation.py",
+    "source": "pair_native_ndvi_roads.py",
+    "source_file_sha256": "73d4d6237481b70478eb6e919d999d72752d002b20fd85754f8628b305ceee03",
+    "functions": [
+      {
+        "name": "summarize_polygon",
+        "source_lines": [
+          68,
+          98
+        ],
+        "source_sha256": "790f8b8883317ff6d1cae51c66eaee1bfb4af24adecfd3de7515ec0db8c1af9b",
+        "unchanged": true
+      }
+    ],
+    "replacements": []
+  },
+  {
+    "file": "src/ndvi_reflectance.py",
+    "source": "rebuild_native_c2_ndvi.py",
+    "source_file_sha256": "9cd1f39bfd0de66cfaac586408e919094ac7cc8abd368d56572bc5a827d4e661",
+    "changes": "Original numerical block lifted verbatim from main into a function; fixed verified coefficients, input-shape validation and return added. GDAL I/O and download omitted."
+  }
+]

@@ -17,12 +17,20 @@ asserted by this repository.
 
 ## What can be reproduced here
 
-The [Python examples](../examples/README.md) recompute selected Beijing and Bang
-Na results from included numerical tables. Their expected outputs were checked
-locally. This does not reproduce image acquisition, semantic segmentation,
-satellite preprocessing, manual coding or spatial bootstrap confidence intervals.
+The [Beijing research code](../projects/beijing/code/README.md) recomputes spatial
+block-bootstrap intervals, Moran diagnostics and classifications from 13,943
+paired roads. The [Bang Na research code](../projects/bangna/code/README.md)
+recomputes point-to-area interface aggregation, two main models, seven sensitivity
+models and the clustered point model. Both runners call original research
+routines and compare their results with archived output tables. Their input
+schemas, provenance and validation scope are documented with the code.
 
-The Beijing verification script is adapted from the existing research code by
+Selected upstream kernels and historical workflows are also supplied. The
+portfolio update does not rerun image acquisition, semantic segmentation,
+satellite preprocessing, full GIS data preparation or manual image coding.
+The [compact examples](../examples/README.md) remain as smaller starting points.
+
+The compact Beijing verification script is adapted from the existing research code by
 making its input path portable. The compact Bang Na script was prepared for this
 portfolio and checked against the original model outputs. Its preparation should
 not be confused with the date or authorship of the original study.
