@@ -9,23 +9,22 @@
 - **Bang Na:** research manuscript by Zihao Lin and Lei Shao, summarised from the
   English v4 manuscript dated 22 October 2026 and associated analysis tables.
 - **VR climbing:** Zihao Lin's undergraduate thesis and graduation design in
-  Architecture at Tsinghua University, 2025, including independent development
-  of the climbing interaction and grip-error counting Blueprints.
+  Architecture at Tsinghua University, 2025, including climbing interaction
+  and grip-error counting Blueprints.
 
-The profile's education, graduate GPA/rank and 2026 graduate scholarship follow
-Zihao Lin's CV dated 24 October 2026. The M.Arch. is in progress, with graduation
-expected in June 2027; the B.Arch. was completed in June 2025. Research interests
-and experience in affective assessment are also summarised from that CV.
+The education, graduate GPA/rank and 2026 graduate scholarship are documented
+in the supplied CVs. The M.Arch. is in progress, with graduation expected in June
+2027; the B.Arch. was completed in June 2025.
 
 No journal acceptance or publication DOI is asserted by this repository.
 
 ## What can be reproduced here
 
-The [Beijing research code](../projects/beijing/code/README.md) recomputes spatial
+The [Beijing research code](https://github.com/leolinnnn/beijing-greenness-scale#quick-start) recomputes spatial
 block-bootstrap intervals, Moran diagnostics and classifications from 13,943
-paired roads. The [Bang Na research code](../projects/bangna/code/README.md)
+paired roads. The [Bang Na research code](https://github.com/leolinnnn/bangna-street-greenery#quick-start)
 recomputes point-to-area interface aggregation, two main models, seven sensitivity
-models and the clustered point model. Both runners call original research
+models and the clustered point model. Both repositories' runners call original research
 routines and compare their results with archived output tables. Their input
 schemas, provenance and validation scope are documented with the code.
 
@@ -39,7 +38,7 @@ making its input path portable. The compact Bang Na script was prepared for this
 portfolio and checked against the original model outputs. Its preparation should
 not be confused with the date or authorship of the original study.
 
-The UE contribution is documented with the thesis's original Blueprint figure,
+The UE implementation is documented with the thesis's original Blueprint figure,
 the stated workflow and the retained project structure. No claim is made that a
 complete runnable VR application is included in this repository.
 
@@ -54,21 +53,21 @@ complete runnable VR application is included in this repository.
   with a separately validated hemispherical urban-climate SVF measurement.
 - **Climbing statistics:** the archived draft contains discrepancies between
   narrative statistics and its tables. This portfolio presents the design and
-  technical contribution without adopting the disputed inferential results.
+  implemented system without adopting the disputed inferential results.
 
 ## Source materials and reuse
 
 Beijing numerical data and the adapted script retain the source package's
-[license and attribution notes](../examples/BEIJING_SOURCE_LICENSES.md), including
+[license and attribution notes](https://github.com/leolinnnn/beijing-greenness-scale/blob/main/LICENSE_NOTES.md), including
 its CC BY 4.0 scope, OpenStreetMap attribution and USGS Landsat source.
 
 Bang Na authorship is retained. A separate public-data license for those research
 materials is not asserted here. The original providers' terms and the authors'
 rights continue to apply.
 
-The Beijing project reproduces **Figures 9 and 7** from the manuscript dated
+The Beijing repository reproduces **Figures 9 and 7** from the manuscript dated
 **21 October 2026**, retaining the original Chinese figure labels and adding
-English captions. The Bang Na project reproduces **Figures 2 and 5** from the
+English captions. The Bang Na repository reproduces **Figures 2 and 5** from the
 **22 October 2026 English v4 manuscript**. All four PNG files are unchanged
 copies, verified against the images embedded in their respective manuscripts.
 Their original legends, intervals and map credits are retained. README display

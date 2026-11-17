@@ -2,7 +2,7 @@
 
 [← Thesis and architectural design](README.md) · [Research overview](../../README.md)
 
-**Independent Blueprint development by Zihao Lin.**
+**Unreal Engine 5.4 · Blueprints · VR experiment control**
 
 ## Implemented workflow
 
@@ -59,8 +59,8 @@ not been established.
 
 The retained project enables OpenXR and includes the VR Expansion/OpenXR
 Expansion plugins by Joshua (MordenTral) Statzer, alongside Unreal starter
-content. These are third-party dependencies; the claimed contribution is the
-project-specific scene integration, interaction and experiment logic.
+content. These dependencies support the project-specific scene integration, interaction
+and experiment logic documented above.
 
 **Tools represented:** Unreal Engine 5.4, Blueprints, OpenXR, Rhino 8, Datasmith,
 Pico VR and SteamVR.

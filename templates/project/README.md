@@ -1,39 +1,35 @@
 # Project title
 
-[← Research overview](../../README.md)
+One sentence stating the research question and context, followed by the main
+verified finding or implemented system.
 
-**Author(s) · Research status or project type · Year**
+## Representative figure
 
-This is a reusable template. Copy it to `projects/project-slug/README.md`,
-replace the guidance below, and remove this paragraph before listing the project.
+Use an existing research figure or system diagram with a caption identifying
+the variables, method, result and source. Link the full-size image.
 
-## Research question
+## Computational workflow
 
-State the question, study context and why the problem matters in one short paragraph.
+Describe inputs, processing, algorithms and outputs. State which steps can run
+with the included data and which require external inputs.
 
-## My contribution
+## Quick start
 
-- Describe your specific analytical, programming or design work.
-- Identify independent and collaborative contributions accurately.
+Give the tested environment, installation command, execution command and expected
+output location. Include commands only when the corresponding code is available.
+For an experimental system, link the implementation note and available assets.
 
-## Research workflow
+## Outputs and validation
 
-- Describe the data or experimental inputs and their scope.
-- Explain the main method, implementation and evaluation.
+List generated files or system functions, representative results and the checks
+actually performed. Include uncertainty or measurement scope where it matters.
 
-## Selected results or outputs
+## Repository guide
 
-Report verified findings, uncertainty where relevant, or a concrete technical or
-design deliverable. Add a small results table or one figure only when it helps.
+Link code modules, numerical inputs, field definitions and calculation tests.
+Keep the overview short; move detailed implementation notes into docs/.
 
-## Code and reproducibility
+## Research record
 
-Link the implementation or example, state its dependencies and give the actual
-command to run it. Explain which outputs it reproduces. If code is not shared,
-state what materials are available instead.
-
-## Scope and research record
-
-Explain relevant measurement or sample limits. Give the actual title, authors,
-date and status of the paper, thesis or other output. Add a verified publication
-link when available, and retain source attribution and reuse conditions.
+Give the actual manuscript or thesis title, authors, year and current verified
+status. Retain figure provenance, third-party attribution and existing reuse terms.

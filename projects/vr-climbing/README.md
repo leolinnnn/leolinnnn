@@ -14,16 +14,13 @@ The project connects an architectural proposal, *Twin Cliff* (岩双阙 / Yan Sh
 Chongli, Zhangjiakou, with a behavioural experiment. A relatively enclosed training
 hall and an open competition hall provide the spatial basis for the study.
 
-## My contribution
+## System workflow
 
-- Architectural design and Rhino modelling of the climbing-centre proposal and
-  experimental scenes.
-- Independent development of the Unreal Engine climbing interaction and
-  grip-error counting Blueprints.
-- Experiment design linking scene conditions, a reference route and observable
-  grip errors.
-- Organisation of the VR study, analysis of the recorded results and integration
-  of the research with architectural design development.
+`Scene condition → controller input → hand–hold interaction → route comparison → error count → trial completion`
+
+Rhino models define the training and competition environments. Unreal Engine
+Blueprints connect climbing interaction with the route-index rule and the
+30-grip trial limit. The resulting error count supplies the behavioural measure.
 
 ## Experimental design
 
@@ -46,10 +43,12 @@ task. It does not establish performance improvements in real or elite climbing.
 Experimental environments reproduced from the final presentation board.
 [View all four scenes and the reference-route display](VISUALS.md#experimental-scenes).
 
-## Programming evidence
+## Implementation and outputs
 
-The implementation links controller input, hand/hold interaction, route labels,
-error accumulation and trial completion.
+The documented implementation covers controller input, hand–hold interaction,
+route labels, error accumulation and trial completion. Available outputs include
+the original Blueprint graph, four experimental scenes, the reference-route display
+and final architectural drawings.
 
 [Read the implementation note and view the original Blueprint figure](IMPLEMENTATION.md).
 
