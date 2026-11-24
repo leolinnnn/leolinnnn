@@ -10,4 +10,4 @@ with spatial resampling, robust regression and numerical validation. I also deve
 connecting spatial design with interactive tasks and behavioural measurement. My
 [research portfolio](docs/RESEARCH_OVERVIEW.md) documents the methods, code and results.
 
-Contact: [zh-lin21@mails.tsinghua.edu.cn](mailto:zh-lin21@mails.tsinghua.edu.cn) · [简体中文](README.zh-CN.md)
+[CV](https://github.com/leolinnnn/CV) · Contact: [zh-lin21@mails.tsinghua.edu.cn](mailto:zh-lin21@mails.tsinghua.edu.cn) · [简体中文](README.zh-CN.md)

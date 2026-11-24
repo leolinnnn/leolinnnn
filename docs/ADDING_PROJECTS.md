@@ -5,9 +5,13 @@
 ## Profile layout
 
 Keep the profile README to three plain paragraphs: academic affiliation; research
-and computation with a few project links; contact and language switch. Detailed
+and computation with a few project links; CV, contact and language switch. Detailed
 methods, results and education belong in the research overview or project pages.
 Update the English and Chinese profiles together.
+
+Keep the CV PDF in the [CV repository](https://github.com/leolinnnn/CV), using
+`Zihao_Lin_CV.pdf` as its stable filename. Replace that file and update the version
+date in its README when publishing a revised CV.
 
 Projects are displayed through GitHub's native pinned repositories below the
 README. Pins are account settings, not Markdown cards. Keep the profile concise
