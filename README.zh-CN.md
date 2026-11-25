@@ -7,4 +7,4 @@
 [VR 攀岩实验](projects/vr-climbing/IMPLEMENTATION.md)，将空间设计与交互任务、行为测量结合。
 [研究项目与计算方法](docs/RESEARCH_OVERVIEW.zh-CN.md)记录了这些工作的技术方法、代码和结果。
 
-[CV](https://github.com/leolinnnn/CV) · 联系：[zh-lin21@mails.tsinghua.edu.cn](mailto:zh-lin21@mails.tsinghua.edu.cn) · [English](README.md)
+[CV](https://github.com/leolinnnn/CV) · 联系：[leolin132435@gmail.com](mailto:leolin132435@gmail.com) · [English](README.md)
