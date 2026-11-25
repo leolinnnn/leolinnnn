@@ -1,51 +1,80 @@
 # Adding research projects
 
-[← Profile](../README.md) · [Research portfolio](RESEARCH_OVERVIEW.md)
+[← Profile](../README.md) · [Research overview](RESEARCH_OVERVIEW.md) · [README template](../templates/project/README.md)
 
-## Profile layout
+## Profile and CV
 
-Keep the profile README to three plain paragraphs: academic affiliation; research
-and computation with a few project links; CV, contact and language switch. Detailed
-methods, results and education belong in the research overview or project pages.
-Update the English and Chinese profiles together.
+Keep the profile README to three plain paragraphs: affiliation; research and
+computation with project links; CV, contact and language switch. Update English
+and Chinese together when project descriptions change. Detailed methods and
+results belong in the independent research repositories.
 
-Keep the CV PDF in the [CV repository](https://github.com/leolinnnn/CV), using
-`Zihao_Lin_CV.pdf` as its stable filename. Replace that file and update the version
-date in its README when publishing a revised CV.
+The [CV repository](https://github.com/leolinnnn/CV) contains its README and the
+stable `Zihao_Lin_CV.pdf` filename. Replace the PDF and update its version date
+when publishing a revised CV. It does not need the research-code directory layout.
 
-Projects are displayed through GitHub's native pinned repositories below the
-README. Pins are account settings, not Markdown cards. Keep the profile concise
-as the portfolio grows; add a short inline link only when it helps describe the work.
+GitHub pins are account settings, separate from README text. Choose repositories
+that show distinct computational strengths; new projects do not require new
+decorative cards or a longer profile introduction.
 
-## Detailed research overview
+## README reading order
 
-Add the project between the `selected-research` comment markers in
+Adapt the [template](../templates/project/README.md) in this order:
+
+1. Research question and verified result or system, with a representative figure.
+2. Computational workflow, linking inputs to code/assets and verification.
+3. Quick start, with an actual entry point and expected output.
+4. Repository guide.
+5. Validation and scope.
+6. Research record and citation.
+
+Keep English as the primary language. Name the research topic or method before
+the case-study location. Do not add empty sections or claim capabilities without
+available code, native assets or clearly identified documentary evidence.
+
+## File responsibilities
+
+| Location | Use |
+| --- | --- |
+| Root | README, executable entry points, dependencies, source record, citation and reuse terms |
+| `src/` | Reusable research computations |
+| `data/` | Input tables and geometries; `README.md` defines observations, units, IDs, producers/consumers and availability |
+| `reference/` | Archived expected results, geometry QA, verification records and retained solver logs |
+| `assets/` | Documentation figures and screenshots |
+| `docs/` | Methods, reproduction and validation; split only when it improves navigation |
+| `tests/` | Analytical cases, invariants and meaningful regression checks |
+| `outputs/` | Generated artifacts, ignored by Git |
+
+Add project-specific folders when needed: `configs/` for parameters, `models/`
+for executed simulation inputs, `unreal/` for native UE assets, `legacy/` for
+original historical scripts, and `examples/` for a compact independent example.
+Preserve Unreal internal paths. A Blueprint archive does not need empty `src/`,
+`data/` or Python dependency files.
+
+Each research repository uses `PROVENANCE.md` and `source_manifest.json`. Manifest
+schemas follow the evidence available: source-function identities, file hashes,
+or native-asset sizes and paths. A common filename does not imply one schema.
+
+## Research overview and existing links
+
+Add a concise entry between the `selected-research` markers in
 [RESEARCH_OVERVIEW.md](RESEARCH_OVERVIEW.md) and
-[RESEARCH_OVERVIEW.zh-CN.md](RESEARCH_OVERVIEW.zh-CN.md). Use this order:
-title → research question → three concise statements about scope, computation
-and results → methods → repository and run links. Update the methods table there
-only when a new implementation supports the entry.
+[RESEARCH_OVERVIEW.zh-CN.md](RESEARCH_OVERVIEW.zh-CN.md): question, scope,
+computation, verified result, and repository/run links. Update the methods table
+only when the new implementation supports it.
 
-## Project repository
+Maintain detailed project documentation in its independent repository. Keep old
+profile project pages as forwarding links. Existing profile image copies may
+remain as immutable compatibility files for previously shared image URLs.
+Preserve manuscript authorship, figure provenance and third-party attribution.
 
-Adapt the [project README template](../templates/project/README.md). Keep runnable
-entry points and environment files at the root, computation in `src/`, numerical
-inputs with field definitions in `data/`, and archived verification targets in
-`reference/`. Add `tests/`, `examples/`, `assets/` and `docs/` when useful.
+## Before publishing
 
-Keep one maintained copy of the code. Preserve old README paths as forwarding
-pages when moving a project. Manuscript authorship, data definitions, figure
-provenance and reuse terms remain with the project.
+1. Check local and cross-repository links, figure captions and data definitions.
+2. Run the documented commands and existing relevant checks after path changes.
+3. Compare moved data and native assets with the previous version's hashes.
+4. Review the exact file diff and local README preview before uploading.
+5. Record the published commit and verification results after upload.
 
-Documentation-led experiments can remain under `projects/`; link the relevant
-page from the profile or research overview until runnable assets are available.
-
-## Before listing a project
-
-1. Check the Markdown, figures, links and numerical claims.
-2. Run the documented commands when executable code changes.
-3. Describe the verified scope and any required external inputs.
-4. Choose the most useful public repositories to pin. GitHub supports up to six
-   repositories and gists; no empty cards or fixed number of projects is required.
-
-[GitHub instructions for pinning](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/pinning-items-to-your-profile)
+Keep the separate Research Portfolio GitHub Project private unless its owner
+explicitly requests a visibility change.

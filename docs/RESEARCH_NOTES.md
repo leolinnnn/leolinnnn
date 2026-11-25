@@ -11,6 +11,8 @@
 - **VR climbing:** Zihao Lin's undergraduate thesis and graduation design in
   Architecture at Tsinghua University, 2025, including climbing interaction
   and grip-error counting Blueprints.
+- **Building energy:** ongoing research by Zihao Lin on four drawing-derived
+  energy-station scenarios, with a 170-run EnergyPlus sensitivity archive.
 
 The education, graduate GPA/rank and 2026 graduate scholarship are documented
 in the supplied CVs. The M.Arch. is in progress, with graduation expected in June
@@ -43,6 +45,13 @@ includes ten original Blueprint, input and map assets from April 2025, the
 thesis's Blueprint figure and the documented workflow. File hashes and literal
 project references have been checked. The complete later experiment build has
 not been recovered or runtime-tested.
+
+The [building energy repository](https://github.com/leolinnnn/building-energy-sensitivity)
+recomputes 170 annual results from 8,148 zone-month records and supplies the
+original executed IDFs. Four baseline models were rebuilt and rerun. The outputs
+are ideal thermal demand under shared virtual-use assumptions; known solver
+warnings and the absence of an annual solver-error bound are documented with
+the [validation record](https://github.com/leolinnnn/building-energy-sensitivity/blob/main/docs/VALIDATION.md).
 
 ## Definitions that matter
 
