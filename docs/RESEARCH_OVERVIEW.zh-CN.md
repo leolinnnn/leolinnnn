@@ -4,8 +4,8 @@
 
 **清华大学建筑学硕士研究生 · 城市分析与科学计算**
 
-我通过计算方法研究城市绿化、街道环境与空间体验。项目结合 Python 地理空间分析、
-图像测量、统计建模，以及基于 Unreal Engine 的交互实验。
+我通过计算方法研究城市绿化、街道环境、建筑性能与空间体验。项目结合 Python 地理空间分析、
+图像测量、统计建模、EnergyPlus 模拟，以及基于 Unreal Engine 的交互实验。
 
 [English](RESEARCH_OVERVIEW.md) · [学术邮箱](mailto:zh-lin21@mails.tsinghua.edu.cn)
 
@@ -37,6 +37,18 @@
 
 [研究与仓库](https://github.com/leolinnnn/street-interface-greenery) · [运行分析](https://github.com/leolinnnn/street-interface-greenery#quick-start)
 
+### 建筑能耗：模拟与敏感性分析
+
+几何解释和共同运行假设变化时，供暖、供冷需求的比较次序有多稳定？
+
+- 通过 Python 几何处理、热区构建和 EnergyPlus 模型生成，建立**四个图纸派生情景**。
+- 提供 **170 份已执行模型输入**、逐月数值数据和批量运行程序，涵盖几何分支、单因素测试和三组 2³ 析因设计。
+- 复现年度理想冷热需求、成对排序逆转与析因差分；四个基线模型已重新生成并实际运行核对。
+
+**Python · EnergyPlus · 计算几何 · 敏感性分析**
+
+[研究与仓库](https://github.com/leolinnnn/building-energy-sensitivity) · [运行分析](https://github.com/leolinnnn/building-energy-sensitivity#quick-start)
+
 ### VR 攀岩：建筑围合与决策表现
 
 如何通过交互式攀岩任务研究空间围合与路线遵循决策的关系？
@@ -58,6 +70,7 @@
 | 地理空间计算 | [NDVI 与像元面积加权](https://github.com/leolinnnn/multiscale-urban-greenness/blob/main/docs/IMPLEMENTATION.md)；[道路网络与 POI 变量](https://github.com/leolinnnn/street-interface-greenery/blob/main/docs/IMPLEMENTATION.md) |
 | 统计计算 | [空间 bootstrap 与 Moran's I](https://github.com/leolinnnn/multiscale-urban-greenness/blob/main/src/spatial_statistics.py)；[OLS、HC3 与模型诊断](https://github.com/leolinnnn/street-interface-greenery/blob/main/src/regression.py) |
 | 图像测量 | [类别比例、裁切与图像→采样点→片区聚合](https://github.com/leolinnnn/street-interface-greenery/blob/main/src/segmentation_metrics.py) |
+| 建筑性能 | [几何到 IDF 的模型生成](https://github.com/leolinnnn/building-energy-sensitivity/blob/main/src/energy_model.py)；[批量模拟](https://github.com/leolinnnn/building-energy-sensitivity/blob/main/run_simulations.py)；[排序敏感性与析因差分](https://github.com/leolinnnn/building-energy-sensitivity/blob/main/src/sensitivity.py) |
 | 交互系统 | [Blueprint 原始资产、交互与实验控制](https://github.com/leolinnnn/ue-vr-climbing-experiment/blob/main/docs/IMPLEMENTATION.md) |
 
 ## 教育与联系

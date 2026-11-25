@@ -1,11 +1,14 @@
 I am a Master of Architecture student in the School of Architecture at Tsinghua
 University, where I also completed my Bachelor of Architecture.
 
-My research examines urban greenery and spatial experience through geospatial
-analysis, image-based measurement and statistical modelling. I develop Python
+My research examines urban greenery, building performance and spatial experience
+through geospatial analysis, simulation and statistical modelling. I develop Python
 workflows for comparing [street-view and satellite greenness in Beijing](https://github.com/leolinnnn/multiscale-urban-greenness)
 and analysing [street interfaces and greenery in Bang Na](https://github.com/leolinnnn/street-interface-greenery),
-with spatial resampling, robust regression and numerical validation. I also develop
+with spatial resampling, robust regression and numerical validation. My
+[building energy sensitivity study](https://github.com/leolinnnn/building-energy-sensitivity)
+combines geometry-based model generation, EnergyPlus simulation and reproducible
+analysis of heating and cooling demand. I also develop
 [VR climbing experiments](https://github.com/leolinnnn/ue-vr-climbing-experiment) in Unreal Engine,
 connecting spatial design with interactive tasks and behavioural measurement. My
 [research portfolio](docs/RESEARCH_OVERVIEW.md) documents the methods, code and results.

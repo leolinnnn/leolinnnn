@@ -5,9 +5,9 @@
 **M.Arch. student at Tsinghua University · Urban analytics & scientific computing**
 
 I develop computational workflows to study urban greenery, street environments
-and spatial experience. My projects combine Python-based geospatial analysis,
-image-based measurement, statistical modelling and interactive experiments in
-Unreal Engine.
+and spatial experience, alongside building-performance simulation. My projects
+combine Python-based geospatial analysis, image-based measurement, statistical
+modelling, EnergyPlus simulations and interactive experiments in Unreal Engine.
 
 [简体中文](RESEARCH_OVERVIEW.zh-CN.md) · [Email](mailto:zh-lin21@mails.tsinghua.edu.cn)
 
@@ -47,6 +47,22 @@ public streets in a peripheral Bangkok station area?
 
 [Research & repository](https://github.com/leolinnnn/street-interface-greenery) · [Run the analysis](https://github.com/leolinnnn/street-interface-greenery#quick-start)
 
+### Building energy — Simulation and sensitivity analysis
+
+How stable are comparisons of heating and cooling demand when geometry
+interpretations and shared operating assumptions change?
+
+- Builds **four drawing-derived scenarios** with Python geometry processing,
+  thermal-zone construction and EnergyPlus model generation.
+- Provides **170 archived model inputs**, monthly numerical data and a batch
+  runner, covering geometry branches, single-factor tests and three 2³ designs.
+- Reproduces annual ideal thermal demand, pairwise rank reversals and factorial
+  contrasts; four baseline models have also been regenerated and rerun.
+
+**Python · EnergyPlus · Computational geometry · Sensitivity analysis**
+
+[Research & repository](https://github.com/leolinnnn/building-energy-sensitivity) · [Run the analysis](https://github.com/leolinnnn/building-energy-sensitivity#quick-start)
+
 ### VR climbing — Architectural enclosure and decisions
 
 How can an interactive climbing task investigate the relationship between spatial
@@ -72,6 +88,7 @@ enclosure and route-following decisions?
 | Geospatial computation | [NDVI and pixel-area weighting](https://github.com/leolinnnn/multiscale-urban-greenness/blob/main/docs/IMPLEMENTATION.md); [road-network and POI variables](https://github.com/leolinnnn/street-interface-greenery/blob/main/docs/IMPLEMENTATION.md) |
 | Statistical computing | [Spatial bootstrap and Moran's I](https://github.com/leolinnnn/multiscale-urban-greenness/blob/main/src/spatial_statistics.py); [OLS, HC3 covariance and model diagnostics](https://github.com/leolinnnn/street-interface-greenery/blob/main/src/regression.py) |
 | Image-based measurement | [Class fractions, cropping and image → point → area aggregation](https://github.com/leolinnnn/street-interface-greenery/blob/main/src/segmentation_metrics.py) |
+| Building performance | [Geometry-to-IDF generation](https://github.com/leolinnnn/building-energy-sensitivity/blob/main/src/energy_model.py); [batch simulation](https://github.com/leolinnnn/building-energy-sensitivity/blob/main/run_simulations.py); [rank sensitivity and factorial contrasts](https://github.com/leolinnnn/building-energy-sensitivity/blob/main/src/sensitivity.py) |
 | Interactive systems | [Blueprint assets, interaction and experiment control](https://github.com/leolinnnn/ue-vr-climbing-experiment/blob/main/docs/IMPLEMENTATION.md) |
 
 ## Education & contact
