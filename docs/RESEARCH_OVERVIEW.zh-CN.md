@@ -23,7 +23,7 @@
 
 **Python · 地理空间分析 · 空间统计**
 
-[研究与仓库](https://github.com/leolinnnn/beijing-greenness-scale) · [运行分析](https://github.com/leolinnnn/beijing-greenness-scale#quick-start)
+[研究与仓库](https://github.com/leolinnnn/multiscale-urban-greenness) · [运行分析](https://github.com/leolinnnn/multiscale-urban-greenness#quick-start)
 
 ### Bang Na：街道界面与可见绿化
 
@@ -35,7 +35,7 @@
 
 **Python · 图像测量 · 统计建模**
 
-[研究与仓库](https://github.com/leolinnnn/bangna-street-greenery) · [运行分析](https://github.com/leolinnnn/bangna-street-greenery#quick-start)
+[研究与仓库](https://github.com/leolinnnn/street-interface-greenery) · [运行分析](https://github.com/leolinnnn/street-interface-greenery#quick-start)
 
 ### VR 攀岩：建筑围合与决策表现
 
@@ -55,9 +55,9 @@
 
 | 能力 | 实现入口 |
 | --- | --- |
-| 地理空间计算 | [NDVI 与像元面积加权](https://github.com/leolinnnn/beijing-greenness-scale/blob/main/docs/IMPLEMENTATION.md)；[道路网络与 POI 变量](https://github.com/leolinnnn/bangna-street-greenery/blob/main/docs/IMPLEMENTATION.md) |
-| 统计计算 | [空间 bootstrap 与 Moran's I](https://github.com/leolinnnn/beijing-greenness-scale/blob/main/src/spatial_statistics.py)；[OLS、HC3 与模型诊断](https://github.com/leolinnnn/bangna-street-greenery/blob/main/src/regression.py) |
-| 图像测量 | [类别比例、裁切与图像→采样点→片区聚合](https://github.com/leolinnnn/bangna-street-greenery/blob/main/src/segmentation_metrics.py) |
+| 地理空间计算 | [NDVI 与像元面积加权](https://github.com/leolinnnn/multiscale-urban-greenness/blob/main/docs/IMPLEMENTATION.md)；[道路网络与 POI 变量](https://github.com/leolinnnn/street-interface-greenery/blob/main/docs/IMPLEMENTATION.md) |
+| 统计计算 | [空间 bootstrap 与 Moran's I](https://github.com/leolinnnn/multiscale-urban-greenness/blob/main/src/spatial_statistics.py)；[OLS、HC3 与模型诊断](https://github.com/leolinnnn/street-interface-greenery/blob/main/src/regression.py) |
+| 图像测量 | [类别比例、裁切与图像→采样点→片区聚合](https://github.com/leolinnnn/street-interface-greenery/blob/main/src/segmentation_metrics.py) |
 | 交互系统 | [Blueprint 原始资产、交互与实验控制](https://github.com/leolinnnn/ue-vr-climbing-experiment/blob/main/docs/IMPLEMENTATION.md) |
 
 ## 教育与联系

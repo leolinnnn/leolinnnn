@@ -3,6 +3,6 @@
 [← Research overview](../../../README.md)
 
 Research documentation, figures, code and numerical inputs are maintained together
-in [bangna-street-greenery](https://github.com/leolinnnn/bangna-street-greenery).
+in [street-interface-greenery](https://github.com/leolinnnn/street-interface-greenery).
 
-[Research & results](https://github.com/leolinnnn/bangna-street-greenery) · [Run the analysis](https://github.com/leolinnnn/bangna-street-greenery#quick-start) · [Implementation](https://github.com/leolinnnn/bangna-street-greenery/blob/main/docs/IMPLEMENTATION.md)
+[Research & results](https://github.com/leolinnnn/street-interface-greenery) · [Run the analysis](https://github.com/leolinnnn/street-interface-greenery#quick-start) · [Implementation](https://github.com/leolinnnn/street-interface-greenery/blob/main/docs/IMPLEMENTATION.md)

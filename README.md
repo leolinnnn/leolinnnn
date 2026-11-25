@@ -3,8 +3,8 @@ University, where I also completed my Bachelor of Architecture.
 
 My research examines urban greenery and spatial experience through geospatial
 analysis, image-based measurement and statistical modelling. I develop Python
-workflows for comparing [street-view and satellite greenness in Beijing](https://github.com/leolinnnn/beijing-greenness-scale)
-and analysing [street interfaces and greenery in Bang Na](https://github.com/leolinnnn/bangna-street-greenery),
+workflows for comparing [street-view and satellite greenness in Beijing](https://github.com/leolinnnn/multiscale-urban-greenness)
+and analysing [street interfaces and greenery in Bang Na](https://github.com/leolinnnn/street-interface-greenery),
 with spatial resampling, robust regression and numerical validation. I also develop
 [VR climbing experiments](https://github.com/leolinnnn/ue-vr-climbing-experiment) in Unreal Engine,
 connecting spatial design with interactive tasks and behavioural measurement. My

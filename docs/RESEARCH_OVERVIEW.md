@@ -29,7 +29,7 @@ satellite-based greenery?
 
 **Python · Geospatial analysis · Spatial statistics**
 
-[Research & repository](https://github.com/leolinnnn/beijing-greenness-scale) · [Run the analysis](https://github.com/leolinnnn/beijing-greenness-scale#quick-start)
+[Research & repository](https://github.com/leolinnnn/multiscale-urban-greenness) · [Run the analysis](https://github.com/leolinnnn/multiscale-urban-greenness#quick-start)
 
 ### Bang Na — Street interfaces and visible greenery
 
@@ -45,7 +45,7 @@ public streets in a peripheral Bangkok station area?
 
 **Python · Image-based measurement · Statistical modelling**
 
-[Research & repository](https://github.com/leolinnnn/bangna-street-greenery) · [Run the analysis](https://github.com/leolinnnn/bangna-street-greenery#quick-start)
+[Research & repository](https://github.com/leolinnnn/street-interface-greenery) · [Run the analysis](https://github.com/leolinnnn/street-interface-greenery#quick-start)
 
 ### VR climbing — Architectural enclosure and decisions
 
@@ -69,9 +69,9 @@ enclosure and route-following decisions?
 
 | Area | Implementations |
 | --- | --- |
-| Geospatial computation | [NDVI and pixel-area weighting](https://github.com/leolinnnn/beijing-greenness-scale/blob/main/docs/IMPLEMENTATION.md); [road-network and POI variables](https://github.com/leolinnnn/bangna-street-greenery/blob/main/docs/IMPLEMENTATION.md) |
-| Statistical computing | [Spatial bootstrap and Moran's I](https://github.com/leolinnnn/beijing-greenness-scale/blob/main/src/spatial_statistics.py); [OLS, HC3 covariance and model diagnostics](https://github.com/leolinnnn/bangna-street-greenery/blob/main/src/regression.py) |
-| Image-based measurement | [Class fractions, cropping and image → point → area aggregation](https://github.com/leolinnnn/bangna-street-greenery/blob/main/src/segmentation_metrics.py) |
+| Geospatial computation | [NDVI and pixel-area weighting](https://github.com/leolinnnn/multiscale-urban-greenness/blob/main/docs/IMPLEMENTATION.md); [road-network and POI variables](https://github.com/leolinnnn/street-interface-greenery/blob/main/docs/IMPLEMENTATION.md) |
+| Statistical computing | [Spatial bootstrap and Moran's I](https://github.com/leolinnnn/multiscale-urban-greenness/blob/main/src/spatial_statistics.py); [OLS, HC3 covariance and model diagnostics](https://github.com/leolinnnn/street-interface-greenery/blob/main/src/regression.py) |
+| Image-based measurement | [Class fractions, cropping and image → point → area aggregation](https://github.com/leolinnnn/street-interface-greenery/blob/main/src/segmentation_metrics.py) |
 | Interactive systems | [Blueprint assets, interaction and experiment control](https://github.com/leolinnnn/ue-vr-climbing-experiment/blob/main/docs/IMPLEMENTATION.md) |
 
 ## Education & contact

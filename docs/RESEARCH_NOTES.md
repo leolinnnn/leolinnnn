@@ -20,9 +20,9 @@ No journal acceptance or publication DOI is asserted by this repository.
 
 ## What can be reproduced here
 
-The [Beijing research code](https://github.com/leolinnnn/beijing-greenness-scale#quick-start) recomputes spatial
+The [Beijing research code](https://github.com/leolinnnn/multiscale-urban-greenness#quick-start) recomputes spatial
 block-bootstrap intervals, Moran diagnostics and classifications from 13,943
-paired roads. The [Bang Na research code](https://github.com/leolinnnn/bangna-street-greenery#quick-start)
+paired roads. The [Bang Na research code](https://github.com/leolinnnn/street-interface-greenery#quick-start)
 recomputes point-to-area interface aggregation, two main models, seven sensitivity
 models and the clustered point model. Both repositories' runners call original research
 routines and compare their results with archived output tables. Their input
@@ -60,7 +60,7 @@ not been recovered or runtime-tested.
 ## Source materials and reuse
 
 Beijing numerical data and the adapted script retain the source package's
-[license and attribution notes](https://github.com/leolinnnn/beijing-greenness-scale/blob/main/LICENSE_NOTES.md), including
+[license and attribution notes](https://github.com/leolinnnn/multiscale-urban-greenness/blob/main/LICENSE_NOTES.md), including
 its CC BY 4.0 scope, OpenStreetMap attribution and USGS Landsat source.
 
 Bang Na authorship is retained. A separate public-data license for those research
