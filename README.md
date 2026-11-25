@@ -6,7 +6,7 @@ analysis, image-based measurement and statistical modelling. I develop Python
 workflows for comparing [street-view and satellite greenness in Beijing](https://github.com/leolinnnn/beijing-greenness-scale)
 and analysing [street interfaces and greenery in Bang Na](https://github.com/leolinnnn/bangna-street-greenery),
 with spatial resampling, robust regression and numerical validation. I also develop
-[VR climbing experiments](projects/vr-climbing/IMPLEMENTATION.md) in Unreal Engine,
+[VR climbing experiments](https://github.com/leolinnnn/ue-vr-climbing-experiment) in Unreal Engine,
 connecting spatial design with interactive tasks and behavioural measurement. My
 [research portfolio](docs/RESEARCH_OVERVIEW.md) documents the methods, code and results.
 

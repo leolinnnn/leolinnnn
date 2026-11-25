@@ -38,9 +38,11 @@ making its input path portable. The compact Bang Na script was prepared for this
 portfolio and checked against the original model outputs. Its preparation should
 not be confused with the date or authorship of the original study.
 
-The UE implementation is documented with the thesis's original Blueprint figure,
-the stated workflow and the retained project structure. No claim is made that a
-complete runnable VR application is included in this repository.
+The [UE implementation archive](https://github.com/leolinnnn/ue-vr-climbing-experiment)
+includes ten original Blueprint, input and map assets from April 2025, the
+thesis's Blueprint figure and the documented workflow. File hashes and literal
+project references have been checked. The complete later experiment build has
+not been recovered or runtime-tested.
 
 ## Definitions that matter
 

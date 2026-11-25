@@ -5,6 +5,8 @@
 **Zihao Lin · Undergraduate thesis and graduation design · 2025**  
 School of Architecture, Tsinghua University. Supervisor: 张利 (Zhang Li).
 
+[Independent repository & original Blueprint assets](https://github.com/leolinnnn/ue-vr-climbing-experiment) · [UE setup](https://github.com/leolinnnn/ue-vr-climbing-experiment/blob/main/docs/OPEN_IN_UNREAL.md)
+
 ## Research question
 
 How can a VR climbing task help investigate the relationship between architectural

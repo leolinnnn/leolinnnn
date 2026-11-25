@@ -61,7 +61,7 @@ enclosure and route-following decisions?
 
 **Unreal Engine Blueprints · VR interaction · Experimental design**
 
-[Research & design](../projects/vr-climbing/README.md) · [System implementation](../projects/vr-climbing/IMPLEMENTATION.md)
+[Repository & Blueprint assets](https://github.com/leolinnnn/ue-vr-climbing-experiment) · [System implementation](https://github.com/leolinnnn/ue-vr-climbing-experiment/blob/main/docs/IMPLEMENTATION.md) · [Research & design](../projects/vr-climbing/README.md)
 
 <!-- selected-research:end -->
 
@@ -72,7 +72,7 @@ enclosure and route-following decisions?
 | Geospatial computation | [NDVI and pixel-area weighting](https://github.com/leolinnnn/beijing-greenness-scale/blob/main/docs/IMPLEMENTATION.md); [road-network and POI variables](https://github.com/leolinnnn/bangna-street-greenery/blob/main/docs/IMPLEMENTATION.md) |
 | Statistical computing | [Spatial bootstrap and Moran's I](https://github.com/leolinnnn/beijing-greenness-scale/blob/main/src/spatial_statistics.py); [OLS, HC3 covariance and model diagnostics](https://github.com/leolinnnn/bangna-street-greenery/blob/main/src/regression.py) |
 | Image-based measurement | [Class fractions, cropping and image → point → area aggregation](https://github.com/leolinnnn/bangna-street-greenery/blob/main/src/segmentation_metrics.py) |
-| Interactive systems | [Blueprint interaction, route checks and experiment control](../projects/vr-climbing/IMPLEMENTATION.md) |
+| Interactive systems | [Blueprint assets, interaction and experiment control](https://github.com/leolinnnn/ue-vr-climbing-experiment/blob/main/docs/IMPLEMENTATION.md) |
 
 ## Education & contact
 

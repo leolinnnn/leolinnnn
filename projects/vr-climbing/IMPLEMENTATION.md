@@ -4,6 +4,13 @@
 
 **Unreal Engine 5.4 · Blueprints · VR experiment control**
 
+The original Blueprint assets and current implementation documentation are now
+available in **[ue-vr-climbing-experiment](https://github.com/leolinnnn/ue-vr-climbing-experiment)**.
+The archive preserves ten prototype assets from April 2025; the complete later
+experiment build has not been recovered or runtime-tested.
+
+[Downloadable Blueprint assets](https://github.com/leolinnnn/ue-vr-climbing-experiment/tree/main/unreal/Content/Project_0412) · [Current implementation notes](https://github.com/leolinnnn/ue-vr-climbing-experiment/blob/main/docs/IMPLEMENTATION.md) · [UE 5.4 setup](https://github.com/leolinnnn/ue-vr-climbing-experiment/blob/main/docs/OPEN_IN_UNREAL.md)
+
 ## Implemented workflow
 
 1. Read left/right controller grip input and identify a reachable hold.

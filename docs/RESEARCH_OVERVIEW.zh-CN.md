@@ -47,7 +47,7 @@
 
 **Unreal Engine Blueprints · VR 交互 · 实验设计**
 
-[研究与设计](../projects/vr-climbing/README.md) · [系统实现](../projects/vr-climbing/IMPLEMENTATION.md)
+[仓库与蓝图资产](https://github.com/leolinnnn/ue-vr-climbing-experiment) · [系统实现](https://github.com/leolinnnn/ue-vr-climbing-experiment/blob/main/docs/IMPLEMENTATION.md) · [研究与设计](../projects/vr-climbing/README.md)
 
 <!-- selected-research:end -->
 
@@ -58,7 +58,7 @@
 | 地理空间计算 | [NDVI 与像元面积加权](https://github.com/leolinnnn/beijing-greenness-scale/blob/main/docs/IMPLEMENTATION.md)；[道路网络与 POI 变量](https://github.com/leolinnnn/bangna-street-greenery/blob/main/docs/IMPLEMENTATION.md) |
 | 统计计算 | [空间 bootstrap 与 Moran's I](https://github.com/leolinnnn/beijing-greenness-scale/blob/main/src/spatial_statistics.py)；[OLS、HC3 与模型诊断](https://github.com/leolinnnn/bangna-street-greenery/blob/main/src/regression.py) |
 | 图像测量 | [类别比例、裁切与图像→采样点→片区聚合](https://github.com/leolinnnn/bangna-street-greenery/blob/main/src/segmentation_metrics.py) |
-| 交互系统 | [Blueprint 交互、路线判断与实验控制](../projects/vr-climbing/IMPLEMENTATION.md) |
+| 交互系统 | [Blueprint 原始资产、交互与实验控制](https://github.com/leolinnnn/ue-vr-climbing-experiment/blob/main/docs/IMPLEMENTATION.md) |
 
 ## 教育与联系
 
